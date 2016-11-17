@@ -8,7 +8,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="400dp"
-        android:text="Hello World!"
+        android:text="Top View"
         android:textSize="20sp"
         android:gravity="center"
         android:layout_centerInParent="true"/>

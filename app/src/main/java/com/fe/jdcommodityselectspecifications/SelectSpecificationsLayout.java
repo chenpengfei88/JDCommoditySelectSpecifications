@@ -19,17 +19,22 @@ public class SelectSpecificationsLayout extends LinearLayout {
 
     private Matrix mTopMatrix;
     private int offset = 40;
-    private int duration = 200;
-    private static final int STATUS_ONE = 1;
-    private static final int STATUS_TWO = 2;
-    private static final int STATUS_THREE = 3;
-    private static final int STATUS_FOUR = 4;
+    //动画时长
+    private int duration = 150;
     public View mTopView;
     public View mBottomView;
     private float[] src = new float[8];
     private float[] dst = new float[8];
     private int mTopWidth, mTopHeight;
     private boolean init = true;
+
+    /**
+     * TopView的不同状态
+     */
+    private static final int STATUS_ONE = 1;
+    private static final int STATUS_TWO = 2;
+    private static final int STATUS_THREE = 3;
+    private static final int STATUS_FOUR = 4;
 
     public SelectSpecificationsLayout(Context context) {
         super(context);
@@ -183,6 +188,4 @@ public class SelectSpecificationsLayout extends LinearLayout {
         }
         super.dispatchDraw(canvas);
     }
-
-
 }

@@ -8,5 +8,5 @@
        android:layout_width="match_parent"
        android:layout_height="400dp"
        android:layout_alignParentBottom="true"
-       android:background="@android:color/holo_red_dark"/>
+       android:background="@android:color/white"/>
 </RelativeLayout>
